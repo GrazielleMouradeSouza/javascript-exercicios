@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO PARA NOTAS</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sistema de Cálculo de Média Escolar</h1>
+        <div class="form-container">
+            <form>
+
+                <h2>Formulário de cadastro</h2>
+                <label for="Nome do aluno">Nome do aluno:</label>
+                <input type="text" id="nomealuno" placeholder="Digite o nome do aluno:" required>
+                <label for="nota1">Nota 1:</label>
+                <input type="number" id="n1" placeholder="Digite a primeira nota:" required>
+                <label for="nota2">Nota 2:</label>
+                <input type="number" id="n2" placeholder="Digite a segunda nota:" required>
+                <label for="nota3">Nota 3:</label>
+                <input type="number" id="n3" placeholder="Digite a terceira nota:" required>
+                <label for="nota41">Nota 4:</label>
+                <input type="number" id="n4" placeholder="Digite a quarta nota:" required>
+
+                <button id="cadastrar"> CADASTRAR </button>
+
+
+            </form>
+
+            <div id="caixaResultado">
+                <div id="caixacontainer">
+                    <hr>
+                    <p id="t1" class="title">Aluno cadastrado com <span id="sus">sucesso</span>!</p>
+                    <hr>
+                    <h3 id="resultado"></h3>
+                    <h4 id="situacaoFinal"></h4>
+                </div>
+
+                <br>
+
+                <div id="caixacontainer">
+                    <hr>
+                    <p id="t2" class="title">Lista de alunos já cadastrados:</p>
+                    <div id="listaAlunos"></div>
+                    <hr>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="JS/script.js" defer> </script>
+
+</body>
+
+</html>

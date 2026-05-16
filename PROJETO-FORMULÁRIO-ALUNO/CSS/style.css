@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: #E0F2FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 50px;
+    background-color: linear-gradient(135deg, #0EA5E9, #2563EB);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.form-container {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+label {
+    color: #1E293B;
+    font-weight: 600;
+}
+
+input {
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+
+button {
+    background-color: #0EA5E9;
+    color: #ddd;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+    background-color: #1d4ed8;
+}
+
+h1 {
+    color: #0EA5E9;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #1E293B;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#caixaResultado {
+    display: none;
+    border-radius: 40px;
+    margin: auto;
+    padding: 20px;
+    line-height: 2;
+}
+
+.aprovado{
+    text-transform: uppercase;
+}
+
+.recuperacao{
+    text-transform: uppercase;
+}
+
+.reprovado{
+    text-transform: uppercase;
+}
+
+.bolinhav{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%; 
+    display: inline-block;
+    background-color: green;
+    margin-right: 12px;
+}
+
+.bolinham{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+
+.bolinhar{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+h3,
+h4 {
+    margin: auto;
+    color: #1E293B;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#t1 {
+    color: rgb(80, 251, 80);
+}
+
+#t2 {
+    color: rgb(232, 92, 92);
+}
+
+#caixacontainer {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#t1{
+    color: #0EA5E9;
+}
+
+#t2{
+    color: #0EA5E9;
+}
+
+#sus{
+    color: green;
+}
