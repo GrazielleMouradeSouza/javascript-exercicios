@@ -16,11 +16,6 @@ O objetivo principal é demonstrar minha evolução em lógica de programação,
 
 ### Projetos Desenvolvidos
 
-#### Média Escolar
-Aplicação prática que simula um sistema escolar calculando médias de notas e validando automaticamente a aprovação ou reprovação de alunos com base nas regras de negócio estabelecidas.
-* Acesse o código: [Ver arquivos do projeto](./media-escolar)
-* Acesse o projeto rodando: https://graziellemouradesouza.github.io/javascript-exercicios/media-escolar/
-
 #### Projeto Formulário Aluno
 Sistema de captura e validação de dados cadastrais de estudantes. Excelente para praticar a manipulação de elementos HTML via JavaScript e simular o recebimento de dados em sistemas escolares.
 * Acesse o código: [Ver arquivos do projeto](./PROJETO-FORMULÁRIO-ALUNO)
