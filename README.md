@@ -16,6 +16,12 @@ O objetivo principal é demonstrar minha evolução em lógica de programação,
 
 ### Projetos Desenvolvidos
 
+#### Projeto Página da IPhone
+
+Desenvolvimento de uma interface inspirada no iPhone 13 Pro com foco em manipulação de DOM, eventos e interatividade usando JavaScript para alteração das cores e imagens do produto.
+* Acesse o código: [Ver arquivos do projeto](./iphone-13-pro)
+* Acesse o projeto rodando: https://graziellemouradesouza.github.io/javascript-exercicios/iphone-13-pro/
+
 #### Projeto Formulário Aluno
 Sistema de captura e validação de dados cadastrais de estudantes. Excelente para praticar a manipulação de elementos HTML via JavaScript e simular o recebimento de dados em sistemas escolares.
 * Acesse o código: [Ver arquivos do projeto](./PROJETO-FORMULÁRIO-ALUNO)
